@@ -43,6 +43,9 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
+# running database
+$ docker-compose up
 ```
 
 ## Test
