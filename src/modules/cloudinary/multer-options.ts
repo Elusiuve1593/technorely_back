@@ -1,6 +1,6 @@
 import { BadRequestException } from '@nestjs/common';
 
-const MAX_SIZE = 500 * 1024;
+const MAX_SIZE = 1 * 1024 * 1024;
 
 export const multerOptions = {
   limits: { fileSize: MAX_SIZE },
